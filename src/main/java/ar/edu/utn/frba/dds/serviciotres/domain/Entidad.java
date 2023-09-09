@@ -13,7 +13,6 @@ public class Entidad {
 
   public int calcularImpacto(){
     int puntaje = 0;
-    int puntaje2 = 0;
 
     puntaje = this.getTiemposResolucionIncidentes().stream().reduce(0, Integer::sum);
 
