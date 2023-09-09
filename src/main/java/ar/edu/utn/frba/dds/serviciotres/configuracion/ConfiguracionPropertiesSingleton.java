@@ -8,7 +8,7 @@ import java.util.Properties;
 @Component
 public class ConfiguracionPropertiesSingleton {
   private static float cnf = 0f;
-  private static String pathConfiguracion = "/home/batata/Documents/UTN/2023/1er cuat y anual/dds/servicio tres/serviciotres/src/main/resources/configuracion.properties";
+  private static String pathConfiguracion = "src/main/resources/configuracion.properties";
   private static ConfiguracionPropertiesSingleton instancia = null;
 
   private ConfiguracionPropertiesSingleton(){
